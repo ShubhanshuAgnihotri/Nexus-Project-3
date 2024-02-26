@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #44c2e1;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 10px 0;
+}
+
+section {
+  margin: 20px;
+}
+
+.company-history,
+.mission-vision,
+.our-team {
+  max-width: 800px;
+  margin: auto;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
